@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: linear-gradient(180deg, #ffe4ec, #fff);
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* EDITOR NOTE BY MistyCode Lab :    BUTTON */
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #ffb6c1;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* EDITOR NOTE BY MistyCode Lab :  DESKRIPSI BOX */
+.description {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.description h2 {
+  margin-bottom: 10px;
+}
+
+/* EDITOR NOTE BY MistyCode Lab :   HERO */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* EDITOR NOTE BY MistyCode Lab :  PORTFOLIO */
+.portfolio {
+  margin-top: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+/* FORM */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+.btn-back {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #555;
+}
+
+
+.card img {
+  display: block;
+}
+
+.box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
